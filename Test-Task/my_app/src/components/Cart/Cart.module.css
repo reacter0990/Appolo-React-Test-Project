@@ -1,0 +1,522 @@
+.main_block{
+   position: relative;
+   width: 100%;
+   padding-bottom: 80px;
+}
+
+
+.main_block_insider{
+   height: 150px;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+.cart_title{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.cart_title_header{
+   font-size: 1.875rem; /* 30px */
+   line-height: 2.25rem; /* 36px */
+}
+
+.empty_content{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: rgb(51 65 85);;
+   margin-top: 12px;
+}
+
+.total_tax_title {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   padding-top: 40px;
+   padding-left: 20px;
+}
+
+.tax_title_text{
+   font-family: 'Raleway';
+   font-size: 1rem; /* 16px */
+   line-height: 1.5rem; /* 24px */
+   font-weight: 600;
+}
+
+
+.tax_price_header{
+   margin-left: 24px;
+   font-size: 1rem; /* 16px */
+   line-height: 1.5rem; /* 24px */
+   font-weight: bold;
+}
+
+
+.tax_price_text_second{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 20px;
+}
+
+.order_button_container{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   padding-top: 40px;
+   padding-left: 20px;
+}
+
+.order_button{
+   height: 40px;
+   width: 150px;
+   background: #5ECE7B;
+   color: white;
+   font-family: 'Raleway';
+   font-size: 20px;
+   font-weight: bold;
+}
+
+
+.order_button:hover{
+   background: #2fec62;
+}
+
+.item_quantity_header{
+   margin-left: 20px;
+   font-size: 1rem; /* 16px */
+   line-height: 1.5rem; /* 24px */
+   font-weight: bold;
+}
+
+.total_price_header{
+   margin-left: 43px;
+   font-size: 1rem; /* 16px */
+   line-height: 1.5rem; /* 24px */
+   font-weight: bold;
+}
+
+.currency_symbol{
+   display: inline-block;
+   font-size: 35px;
+}
+
+.go_back_title{
+   color: rgb(51 65 85);;
+}
+
+.click_here_title{
+   padding-left: 8px;
+}
+
+@media(min-width: 1536px){
+
+   .main_block_insider{
+      height: 250px;
+      padding-left: 80px;
+      padding-right: 80px;
+   }
+
+   .cart_title_header{
+      font-size: 3rem; /* 48px */
+      line-height: 1;
+   }
+
+   .empty_content{
+      margin-top: 0;
+   }
+
+   .total_tax_title {
+      padding-left: 80px;
+   }
+
+   .tax_title_text{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   }
+
+   .currency_symbol{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   } 
+
+   .tax_price_header{
+      margin-left: 30px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+
+   .tax_price_text_second{
+      padding-left: 80px;
+   }
+
+   .order_button_container{
+      padding-left: 5rem;
+   }
+
+   .order_button{
+      width: 300px;
+      height: 60px;
+      font-size: 1.5rem; 
+      line-height: 2rem; 
+   }
+
+   .item_quantity_header{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .total_price_header{
+      margin-left: 65px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+}
+
+
+@media(max-width: 1536px){
+
+   .main_block_insider{
+      height: 250px;
+      padding-left: 80px;
+      padding-right: 80px;
+   }
+
+   .cart_title_header{
+      font-size: 3rem; /* 48px */
+      line-height: 1;
+   }
+
+   .empty_content{
+      margin-top: 0;
+   }
+
+   .total_tax_title {
+      padding-left: 75px;
+   }
+
+   .tax_title_text{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+   
+   .currency_symbol{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   } 
+
+   .tax_price_header{
+      margin-left: 30px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .tax_price_text_second{
+      padding-left: 75px;
+   }
+
+   .order_button_container{
+      padding-left: 5rem;
+   }
+
+   .order_button{
+      width: 300px;
+      height: 60px;
+      font-size: 1.5rem; 
+      line-height: 2rem; 
+   }
+
+   .item_quantity_header{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .total_price_header{
+      margin-left: 65px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+}
+
+
+@media(max-width: 1280px){
+
+   .main_block_insider{
+      height: 250px;
+      padding-left: 80px;
+      padding-right: 80px;
+   }
+
+   .cart_title_header{
+      font-size: 3rem; /* 48px */
+      line-height: 1;
+   }
+
+   .empty_content{
+      margin-top: 0;
+   }
+ 
+   .total_tax_title {
+      padding-left: 60px;
+   }
+
+   .tax_title_text{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   }
+
+   .currency_symbol{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   } 
+
+   .tax_price_header{
+      margin-left: 35px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .tax_price_text_second{
+      padding-left: 65px;
+   }
+   
+   .order_button_container{
+      padding-left: 4rem;
+   }
+
+   .order_button{
+      width: 300px;
+      height: 60px;
+      font-size: 1.5rem; 
+      line-height: 2rem; 
+   }
+
+   .item_quantity_header{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .total_price_header{
+      margin-left: 65px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+}
+
+
+@media(max-width: 1024px){
+
+   .main_block_insider{
+      height: 250px;
+      padding-left: 80px;
+      padding-right: 80px;
+   }
+
+   .cart_title_header{
+      font-size: 3rem; /* 48px */
+      line-height: 1;
+   }
+
+   .empty_content{
+      margin-top: 0;
+   }
+
+   .total_tax_title {
+      padding-left: 50px;
+   }
+
+   .tax_title_text{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   }
+
+   .currency_symbol{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+      font-weight: 600;
+   } 
+
+   .tax_price_header{
+      margin-left: 30px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .tax_price_text_second{
+      padding-left: 50px;
+   }
+
+   .order_button_container{
+      padding-left: 3rem;
+   }
+
+   .order_button{
+      width: 300px;
+      height: 60px;
+      font-size: 1.5rem; 
+      line-height: 2rem; 
+   }
+
+   .item_quantity_header{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+
+   .total_price_header{
+      margin-left: 65px;
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   }
+}
+
+@media(max-width: 980px){
+   .order_button_container{
+      padding-left: 0;
+      justify-content: center;
+   }
+
+   .order_button{
+      width: 80%;
+   }
+}
+
+@media(max-width: 768px){
+
+   .main_block_insider{
+      height: 250px;
+      padding-left: 64px;
+      padding-right: 64px;
+   }
+
+   .cart_title_header{
+      font-size: 3rem; /* 48px */
+      line-height: 1;
+   }
+
+   .empty_content{
+      margin-top: 0;
+   }
+
+   .total_tax_title {
+      padding-left: 20px;
+   }
+
+   .tax_title_text{
+      font-size: 1.5rem; /* 24px */
+      line-height: 2rem; /* 32px */
+      font-weight: 600;
+   }
+
+   .currency_symbol{
+      font-size: 1.5rem; /* 24px */
+      line-height: 2rem; /* 32px */
+      font-weight: 600;;
+   } 
+
+   .tax_price_header{
+      margin-left: 27px;
+      font-size: 1.5rem; /* 24px */
+      line-height: 2rem; /* 32px */
+   }
+
+   .tax_price_text_second{
+      padding-left: 20px;
+   }
+
+   .item_quantity_header{
+      font-size: 1.5rem; /* 24px */
+      line-height: 2rem; /* 32px */
+   }
+
+   .total_price_header{
+      margin-left: 57px;
+      font-size: 1.5rem; /* 24px */
+      line-height: 2rem; /* 32px */
+   }
+}
+
+
+@media(max-width: 640px){
+   
+   .main_block_insider{
+      height: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   
+   .cart_title_header{
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem; /* 36px */
+   } 
+   
+   .empty_content{
+      margin-top: 0;
+   }
+
+   
+   .total_tax_title {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .tax_title_text{
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+   }
+
+   .currency_symbol{
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+   } 
+   
+   .tax_price_header{
+      margin-left: 23px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+   }
+
+   .tax_price_text_second{
+      padding-left: 20px;
+   }
+
+   .order_button_container{
+      padding-left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .order_button{
+      height: 40px;
+      width: 150px;
+      font-size: 15px;
+      width: 80%; 
+   }
+
+   .item_quantity_header{
+      font-size: 1rem;
+      line-height: 1.5rem;
+   }
+
+   .total_price_header{
+      margin-left: 44px;
+      font-size: 1rem;
+      line-height: 1.5rem;
+   }
+}
+

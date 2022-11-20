@@ -1,0 +1,37 @@
+.picture_icon{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.unit_image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.selected_unit_image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border: 3px solid greenyellow;
+}
+
+@media(min-width: 1024px){
+    .picture_icon{
+        height: 15%;
+    }
+}
+
+@media(min-width: 1280px){
+    .picture_icon{
+        height: 15%;
+    }
+}
+
+@media(min-width: 1536px){
+    .picture_icon{
+        height: 15%;
+    }
+}

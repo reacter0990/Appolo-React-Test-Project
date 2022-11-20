@@ -1,0 +1,20 @@
+.picture_icon_sm{
+    height: 100%;
+    width: 80px;
+    overflow: hidden;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.unit_image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.selected_unit_image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border: 3px solid greenyellow;
+}

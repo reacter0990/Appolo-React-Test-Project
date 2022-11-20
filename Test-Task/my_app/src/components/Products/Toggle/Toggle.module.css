@@ -1,0 +1,330 @@
+.toggle_list_item{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.toggle_list_item_container{
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+
+.toggle_list_item_child{
+    height: 100%;
+    width: 90%;
+}
+
+.toggle_items_quantity_container{
+  height: 100%;
+  width: 20%;
+}
+
+.toggle_items_button_top{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%
+}
+
+.toggle_quantity_title_little{
+    height: 80%;
+    width: 100%;
+}
+
+.toggle_item_incrementer{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.toggle_item_decrementer{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding-bottom: 3px;
+}
+
+._quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.toggle_items_button_bottom{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+
+.toggle_item_brand_name{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toggle_item_name{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toggle_item_price{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toggle_item_size_title{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toggle_item_size_buttons_container{
+    
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow-x: auto;
+}
+
+.no_size_span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.toggle_image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.toggle_image img{
+    object-fit: contain;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.toggle_empty_list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_toggle{
+    position: absolute;
+    height: 677px;
+    width: 325px;
+    background: #FFFFFF;
+    z-index: 30;
+    right: 50px;
+}
+
+.toggle_storage{
+   width: 100%;
+   height: 80%;
+   padding: 20px;
+   padding-top: 40px;
+   overflow: hidden;
+}
+
+.toggle_title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+
+.toggle_my_bag_title{
+    height: 50%;
+    width: 25%;
+    font-family: 'Raleway';
+    font-weight:bolder;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+
+.toggle_quantity_title{
+    height: 50%;
+    width: 30%;
+    padding-right: 32px;
+    font-family: 'Raleway';
+}
+
+.card_items_list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.toggle_buttons{
+    height: 20%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 40px;
+}
+
+.card_selected_products{
+    height: 90%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.total_price_info{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+
+.toggle_total_title{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.toggle_quantity_title_bottom{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.toggle_view_and_checked_btn{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.toggle_view_card_button{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.toggle_view_card_button_link{
+    height: 50%;
+    width: 48%;
+    margin-right: 8px;
+}
+
+
+.toggle_chcek_out_button{
+    height: 50%;
+    width: 48%;
+    background-color: #5ECE7B;
+    margin-left: 8px;
+    color: #FFFFFF;
+}
+
+.color_container_title_block{
+    padding-left: 8px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.color_buttons_container{
+    display: flex;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.currency_symbol{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+@media(max-width: 640px){
+    .card_toggle{
+        width: 370px !important;
+    }
+}
+
+
+@media(min-width: 640px){
+    .card_toggle{
+        width: 370px;
+    }
+}
+
+@media(min-width: 768px){
+    .card_toggle{
+        width: 370px;
+   }
+}
+
+@media(max-width: 768px){
+    .card_toggle{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media(min-width: 1024px){
+    .card_toggle{
+        width: 350px;
+    }
+}
+
+@media(min-width: 1280px){
+    .card_toggle{
+        width: 350px;
+    }
+}
+
+
+@media(max-width: 1536px){
+    .card_toggle{
+      width: 390px;
+    }
+}
+
+@media(min-width: 1536px){
+   .card_toggle{
+     width: 390px;
+   }
+}
