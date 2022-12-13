@@ -34,16 +34,18 @@
 }
 
 .add_to_card{
-    position: absolute;
-    height: 63px;
-    width: 63px;
-    background: #FFFFFF;
     top: 85%;
     right: 10%;
-    background-color: rgb(132 204 22);
-    border-radius: 9999px;
     z-index: 2;
+    width: 63px;
+    height: 63px;
     display: none;
+    position: absolute;
+    align-items: center;
+    border-radius: 9999px;
+    background: #FFFFFF;
+    justify-content: center;
+    background-color: rgb(132 204 22);
 
 }
 
@@ -55,7 +57,9 @@
 .card_content{
    width: 100%;
    height: 20%;
-   padding: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
 }
 
 .product_title{
@@ -83,11 +87,6 @@
   font-size: 18px;
   line-height: 160%;
 }
-
-.bascet_icon{
-    color: #FFFFFF;
-}
-
 
 @media(min-width: 640px){
     .card{

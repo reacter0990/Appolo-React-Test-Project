@@ -1,17 +1,14 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 import classes from './Buttons.module.css';
 
-const Buttons = ({ size, id, identifier}) => {
+const Buttons = ({ size, id, identifier, selected, setSelected, setSize}) => {
 
     return (
-        <>
-            <button id={id} className={id == 0 ? classes.size_button_selected + ' size_buttons_' +  identifier :
-             classes.size_button + ' size_buttons_' +  identifier} onClick={(e) =>
-             {document.querySelectorAll('.size_buttons_' + identifier).forEach(x => x.id == e.currentTarget.id ?
-             x.className = classes.size_button_selected + ' size_buttons_' +  identifier : 
-             x.className = classes.size_button + ' size_buttons_' +  identifier)}}>{size}</button>
-        </>
+     <>
+       <button id={id} className={id == selected ? classes.size_button_selected + ' size_buttons_' +  identifier :
+         classes.size_button + ' size_buttons_' +  identifier} onClick={() =>{ setSelected(id); setSize(id) }}>{size}</button>
+     </>
     )
 
 }

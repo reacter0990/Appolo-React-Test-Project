@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import FillProducts from './FillProducts/FillProducts';
 import { Cart_Spinner } from '../Spinners';
 import 
@@ -9,7 +9,7 @@ import
     TbCurrencyYen,
     TbCurrencyDollarAustralian,
     TbCurrencyRubel
-} from "react-icons/tb"
+} from "./index"
 
 import classes from './Cart.module.css';
 
@@ -17,26 +17,31 @@ import classes from './Cart.module.css';
 
 const Cart = ({items, currencySelector}) => {
 
-  const navigate = useNavigate();
+  console.log(items);
+
   const [totalFee, setTotalFee] = useState(0);
   const [quantity, setQuantity] = useState(0);
   const [order, setOrder] = useState(false);
   const [tax, setTax] = useState(0);
  
   useEffect(() => {
+
     setTotalPrice();
+
   }, [currencySelector])
   
   
   const setTotalPrice = () => {
+
     let counter = 0;
-    items.forEach(x => (counter += x.prices[currencySelector].amount))
+    let items_counter = 0;
+
+    items.forEach(x => (counter += x.selectedItem.prices[currencySelector].amount));
+    items.forEach(x => (items_counter += x.item_quantity));
     setTotalFee(counter);
-    setQuantity(items.length);
+    setQuantity(items_counter);
     setTax(counter * 21/100);
   }
-
-
 
   const AddPriceOfItem = (price) => {
     setTotalFee(totalFee + price);
@@ -81,8 +86,8 @@ const Cart = ({items, currencySelector}) => {
       </div>
       <div className={classes.empty_content}>
         {items != null && items.length == 0 ? <EmptyCart/> 
-        : items.map((product) => <FillProducts key={product.id} items={product} AddPriceOfItem={AddPriceOfItem} 
-        RemovePriceOfItem={RemovePriceOfItem} currncySelector={currencySelector}/>)}
+        : items.map((product, index) => <FillProducts key={product.selectedItem.id} items={product} AddPriceOfItem={AddPriceOfItem} 
+        RemovePriceOfItem={RemovePriceOfItem} currncySelector={currencySelector} itemId={index}/>)}
       </div>
       <div className={classes.total_tax_title}>
         <h1 className={classes.tax_title_text}>Tax 21%:</h1>

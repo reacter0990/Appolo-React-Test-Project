@@ -52,6 +52,8 @@
 
 
 .tax_price_header{
+   display: flex;
+   align-items: center;
    margin-left: 24px;
    font-size: 1rem; /* 16px */
    line-height: 1.5rem; /* 24px */
@@ -97,6 +99,8 @@
 }
 
 .total_price_header{
+   display: flex;
+   align-items: center;
    margin-left: 43px;
    font-size: 1rem; /* 16px */
    line-height: 1.5rem; /* 24px */
